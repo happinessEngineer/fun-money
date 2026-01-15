@@ -1,27 +1,57 @@
----
----
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <title>Fun Money</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; background-color: #f9f9f9; color: #333; }
-    nav { margin-bottom: 1rem; }
-    nav a { margin-right: 1rem; color: #0070f3; text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    h2 { margin-top: 2rem; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(to bottom right, #f3f4f6, #e0f7fa);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav {
+      width: 100%;
+      background: rgba(255,255,255,0.8);
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #0070f3;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    nav i {
+      margin-right: 0.25rem;
+    }
+    main {
+      max-width: 600px;
+      background: white;
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
   <nav>
-    <a href="/fun-money/">Home</a> | 
-    <a href="/fun-money/about">About</a> | 
-    <a href="/fun-money/contact">Contact</a>
+    <a href="/fun-money/"><i class="fas fa-home"></i>Home</a> |
+    <a href="/fun-money/about"><i class="fas fa-info-circle"></i>About</a> |
+    <a href="/fun-money/contact"><i class="fas fa-envelope"></i>Contact</a>
   </nav>
-  <h1>Fun Money</h1>
-  <p>When you think about money as fun, everything changes.</p>
-  <h2><a href="/fun-money/2026-01-15-welcome">Welcome to Fun Money</a></h2>
-  <p>When you think about money as fun, everything changes. This first post introduces the concept and encourages readers to explore a playful approach to finances.</p>
+  <main>
+    <h1>Fun Money</h1>
+    <p>When you think about money as fun, everything changes.</p>
+    <h2><a href="/fun-money/2026-01-15-welcome">Welcome to Fun Money</a></h2>
+    <p>When you think about money as fun, everything changes. This first post introduces the concept and encourages readers to explore a playful approach to finances.</p>
+  </main>
 </body>
 </html>
