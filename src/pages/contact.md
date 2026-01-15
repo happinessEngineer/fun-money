@@ -1,6 +1,7 @@
-<nav>
-  <a href="/fun-money/">Home</a> | <a href="/fun-money/about">About</a> | <a href="/fun-money/contact">Contact</a>
-</nav>
+---
+layout: ../layouts/PageLayout.astro
+title: "Contact"
+---
 
 # Contact
 
